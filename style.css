@@ -8,13 +8,15 @@ body{
 	background-color: #333333;
 	height: 55px;
 	padding-top: 10px;
+	width:100%;
+	margin:0;
 }
 
 .image img{
-	width: 575px;
-	height: 750px;
-	position:absolute;
-	right: 20px;
+	width: 287px;
+	height: 375px;
+	float:right;
+	margin-right: 20px;
 	border-radius: 10px;
 	border:5px solid #444444;
 }
@@ -26,25 +28,27 @@ body{
 .details{
 	border-bottom: 4px solid #336699;
 	border-right: 4px solid #336699;
-	width:715px;
+	width:820px;
 	font-weight: bold;
-	margin-left: 10px;
 	margin-top: 50px;
 }
 
 .hobbies{
 	margin-top: 50px;
-	margin-left: 10px;
-	width:700px;
+	width:810px;
 	text-align: justify;
+	padding-right: 10px;
 	border-bottom: 4px solid #336699;
 	border-right: 4px solid #336699;
-	padding-right: 15px;
+}
+
+.hobbies li{
+	margin-right: 20px;
 }
 
 .hobbies ul{
 	font-family: "Comic Sans MS";
-	list-style-type:cjk-ideographic;
+	list-style-type:circle;
 }
 
 .hobbies h2{
@@ -53,17 +57,16 @@ body{
 }
 
 a .link_movies, a .link_home{
-	width:695px;
+	width:796px;
 	border:4px solid #336699;
 	margin-top: 50px;
-	margin-left: 10px;
 	background-color: #aaaaaa;
-	padding:10px;
 	display: inline-block;
 	font-family:"Ar Destine";
     font-size: 1.2em;
     text-align: center;
     color:#336699;
+    padding: 10px;
 }
 
 a .link_home{
@@ -85,7 +88,8 @@ a .link_movies:hover, a .link_home:hover{
 	list-style-type: none;
 	padding: 5px;
 	margin: 0px;
-	margin-left: -40px;
+	margin-left: -48px;
+	width:150%;
 	border-bottom: 4px black solid;
 }
 
@@ -103,8 +107,7 @@ a .link_movies:hover, a .link_home:hover{
 }
 
 .movie_image, .movie_details{
-	display: inline-block;
-
+     display: inline-block;
 }
 
 .movie_details{
@@ -133,6 +136,7 @@ a .link_movies:hover, a .link_home:hover{
 
 .description{
 	text-align: justify;
+	margin-right: 0px;
 	color:#666666;
 }
 
