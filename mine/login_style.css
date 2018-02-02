@@ -1,0 +1,60 @@
+form {
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#sign_in, #registration{
+	border-radius: 5px;
+	border-color: #cccccc;
+}
+
+legend {
+	border: 1.5px solid #aaaaaa;
+	color: #aaaaaa;
+	border-radius: 5px;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: verdana;
+	padding: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.input {
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+
+.text {
+	width: 40%;
+	float: left;
+	text-align: right;
+	margin-right: 20%;
+	font-size: 1.8em;
+	color: #888888;
+}
+
+.input input {
+	padding: 5px;
+	width: 35%;
+	border-radius: 5px;
+	border-color: #aaaaaa;
+	font-size: 100%;
+}
+
+input[type='submit'] {
+	text-align: center;
+	width: 15%;
+	margin-left: 41%;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #dddddd;
+}
+
+.incorrect{
+	color: red;
+	font-style: italic;
+	width: 40%;
+	text-align: center;
+}

@@ -1,0 +1,20 @@
+.menu
+{
+	width: 100%;
+	display: inline-block;
+}
+
+.menu_items{
+	width: 200px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid blue;
+	background-color: #888888;
+	margin-right: 5%;
+}
+
+.menu_items a{
+    text-decoration: none;
+    color: white;
+    font-family: verdana;
+}

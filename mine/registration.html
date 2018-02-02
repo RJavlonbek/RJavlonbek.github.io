@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="login_style.css">
+<form action="index.php" method="post">
+    <fieldset id="registration">
+		<legend>Registration</legend>
+		<div class="input">
+			<label for="first_name">
+				<span class="text">First name</span>
+				<input type="text" name="first_name" id="first_name" required="required" />
+			</label>
+		</div>
+		<div class="input">
+			<label for="surname">
+				<span class="text">Last name</span>
+				<input type="text" name="surname" id="surname" required="required" />
+			</label>
+		</div>
+		<div class="input">
+			<label for="date_of_birth">
+				<span class="text">Date of Birth</span>
+				<input type="date" name="date_of_birth" required="required" />
+			</label>
+		</div>
+		<div class="input">
+			<label for="con_password">
+				<span class="text">Password</span>
+				<input type="password" name="con_password" id="con_password" required="required" />
+			</label>
+		</div>
+		<input type="submit" name="submit" value="SUBMIT" />
+	</fieldset>
+</form>
+</body>
+</html>
